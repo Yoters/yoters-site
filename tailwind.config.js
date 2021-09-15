@@ -15,7 +15,18 @@ module.exports = {
       'one': '1356px',
       '2xl': '1536px',
     },
-    extend: {},
+    extend: {
+      fontSize: {
+        'bannerTitle': '3.2vw',
+        'bannerDescription': '1.5vw',
+        'bannerButtons': '1.1vw',
+        'headerTitle': '2.4vw',
+        'headerDescription': '1.8vw',
+      },
+      backgroundSize: {
+        'none': '0%'
+      }
+    },
   },
   variants: {
     extend: {},
